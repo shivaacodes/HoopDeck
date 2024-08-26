@@ -3,9 +3,45 @@
 @tailwind utilities;
 
 .default-background {
-    @apply bg-black text-white;
+  @apply bg-black text-white;
+}
+
+.Card {
+  @apply w-80 h-96 bg-purple-950 border-2 border-black rounded-3xl p-4 mx-auto my-24 font-serif relative;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.Card::after,
+.Card::before {
+  content: "";
+  position: absolute;
+  height: 102%;
+  width: 103%;
+  background-image: conic-gradient(from var(--angle), transparent 30%, rgb(248, 196, 7) 90%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  animation: 5s spin linear infinite;
+}
+
+.Card::before {
+  filter: blur(2rem); 
+  opacity: 0.8; 
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
   }
-  
-.Card{
-  
+  to {
+    --angle: 360deg;
+  }
 }
