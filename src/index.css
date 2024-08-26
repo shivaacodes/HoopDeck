@@ -29,7 +29,7 @@
   z-index: -1;
   padding: 1rem;
   border-radius: 1.5rem;
-  animation: 5s spin linear infinite;
+  animation: 6s spin linear infinite;
 }
 
 .Card::before {
