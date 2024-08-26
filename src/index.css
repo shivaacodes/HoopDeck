@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.default-background {
+    @apply bg-black text-white;
+  }
+  
+.Card{
+  
+}
