@@ -4,7 +4,7 @@
 
 Introducing **HoopDeck**🏀—the ultimate app for discovering and collecting stunning NBA cards. Dive into vibrant designs and detailed stats of real NBA teams, making it easy to showcase your favorite players and teams. Whether you're a passionate fan or a dedicated collector, HoopDeck brings the excitement of the NBA to your fingertips. Explore the league’s rich history and build a collection that’s uniquely yours!
 
-<img src="nba-app\src\assets\NBA-PNGs\OG.jpeg" alt="HoopDeck" width="500px" />
+<img src="" alt="HoopDeck" width="500px" />
 
 ## Features
 
